@@ -14,12 +14,13 @@ namespace p3_resta
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("DAME EL PRIMER NUMERO");
+			int numero1=int.Parse(Console.ReadLine());
 			
-			// TODO: Implement Functionality Here
+			Console.WriteLine("DAME EL SEGUNDO NUMERO");
+			int numero2=int.Parse(Console.ReadLine());
 			
-			Console.Write("Press any key to continue . . . ");
-			Console.ReadKey(true);
+			
 		}
 	}
 }
